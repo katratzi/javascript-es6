@@ -16,4 +16,5 @@ lastName = "Smith";
   for (const income of incomes) {       
         total += income;
       }
+      // interestingly...this would not update the values..so
 
