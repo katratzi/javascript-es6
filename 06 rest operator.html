@@ -2,7 +2,13 @@
   <head>
     <script>
       function add(...nums) {
-        console.log(nums);
+        // older way
+        let total = nums.reduce(function(x, y) {
+          return x + y;
+        });
+        // new arrow function
+        total = nums.reduce((x, y) => x + y);
+        console.log(total);
       }
 
       //   add(4);
