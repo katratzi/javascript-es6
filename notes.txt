@@ -12,3 +12,8 @@ lastName = "Smith";
 // object literal, nice shorthand - will fill in correctly
  function addressMaker(city, country) { const newAddress = { city, country }; 
 
+ // for of loop in es6 - just like a foreach in c#
+  for (const income of incomes) {       
+        total += income;
+      }
+
