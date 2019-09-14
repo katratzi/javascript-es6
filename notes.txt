@@ -16,5 +16,9 @@ lastName = "Smith";
   for (const income of incomes) {       
         total += income;
       }
-      // interestingly...this would not update the values..so
+// interestingly...this would not update the values..so
+
+// spread operator - fill array, or object with these values.  neat.
+ let example1 = [1, 2, 3, 4, 5, 6]; let example2 = [...example1];
+
 
