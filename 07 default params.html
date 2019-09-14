@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <script>
+      function add(numArray = [], test = false) {
+        let total = 0;
+        numArray.forEach(element => {
+          total += element;
+        });
+
+        console.log(total);
+        if (test) console.log("hello world");
+      }
+
+      //add([true], true);
+      add();
+    </script>
+  </head>
+  <body></body>
+</html>

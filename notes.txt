@@ -28,3 +28,7 @@ function add(...nums)
 // arrow funtions help reduce some of the boilerplate code
 let total = nums.reduce(function(x, y) { return x + y; });
 let total = nums.reduce((x, y) => x + y);
+
+// can set default params for functions like in c#
+ function add(numArray = []) {
+ }
