@@ -21,4 +21,6 @@ lastName = "Smith";
 // spread operator - fill array, or object with these values.  neat.
  let example1 = [1, 2, 3, 4, 5, 6]; let example2 = [...example1];
 
-
+// rest operator, for when calling a function when you don't know how many arguments you'll use
+// very much like the params keyword in c#
+function add(...nums) 
