@@ -1,1 +1,10 @@
 template literals - name for the `${variable}` syntax
+
+// destructure object - like a shorthand property 
+// (e.g. replace personalInformation.firstName)
+const { firstName: fn, lastName: ln } = personalInformation;
+
+// destructor array
+let [firstName, middleName, lastName] = ["James", "Tiberius", "Kirk"];
+// can also assign using them
+lastName = "Smith";

@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script>
+      const personalInformation = {
+        firstName: "Richard",
+        lastName: "Clifford",
+        city: "Glasgow",
+        country: "Scotland"
+      };
+
+      // destructor
+      // const { firstName, lastName } = personalInformation;
+      // console.log(`${firstName} ${lastName}`);
+
+      // shorthand destructor
+      // const { firstName: fn, lastName: ln } = personalInformation;
+      // console.log(`${fn} ${ln}`);
+
+      // destructor array
+      let names = ["James", "Tiberius", "Kirk"];
+      let [firstName, middleName, lastName] = ["James", "Tiberius", "Kirk"];
+
+      // can also assign using them
+      lastName = "Smith";
+
+      console.log(firstName + " " + middleName + " " + lastName);
+    </script>
+  </head>
+  <body></body>
+</html>
