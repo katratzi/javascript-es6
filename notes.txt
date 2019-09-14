@@ -8,3 +8,7 @@ const { firstName: fn, lastName: ln } = personalInformation;
 let [firstName, middleName, lastName] = ["James", "Tiberius", "Kirk"];
 // can also assign using them
 lastName = "Smith";
+
+// object literal, nice shorthand - will fill in correctly
+ function addressMaker(city, country) { const newAddress = { city, country }; 
+

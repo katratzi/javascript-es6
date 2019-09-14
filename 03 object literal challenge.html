@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script>
+      function addressMaker(address) {
+        // destructor for the incoming address
+        const { city, state } = address;
+        // object literal
+        const newAddress = { city, state, country: "United States" };
+
+        // and write out with literals
+        console.log(`${city}, ${state}, ${newAddress.country}`);
+      }
+
+      addressMaker({ city: "Austin", state: "Texas" });
+    </script>
+  </head>
+  <body></body>
+</html>
