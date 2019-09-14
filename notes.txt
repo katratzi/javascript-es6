@@ -32,3 +32,14 @@ let total = nums.reduce((x, y) => x + y);
 // can set default params for functions like in c#
  function add(numArray = []) {
  }
+
+// includes... returns a bool if element is in array
+let numArray = [1,2,3,4,5]; console.log(numArray.includes(0)) ... false
+
+// const.  interesting - can't change underlying type.  
+const example = 5;
+example = 10; // doesn't work
+
+const example = [];
+example.push(5); // this works fine
+example.firstName = "Walt"; // and this
