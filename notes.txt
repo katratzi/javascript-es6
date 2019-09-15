@@ -43,3 +43,9 @@ example = 10; // doesn't work
 const example = [];
 example.push(5); // this works fine
 example.firstName = "Walt"; // and this
+
+// import & export looks like
+export const data = ["james", "tiberius", "kirk"];
+import { data } from "./name.js";
+
+// padstart and padend...fills in *available* space
